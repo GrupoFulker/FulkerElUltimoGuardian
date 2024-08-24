@@ -274,37 +274,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2555414295925711602, guid: ed2c399bf60cbed4e828dbd1df8f0fa3, type: 3}
   m_PrefabInstance: {fileID: 68547963}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &95686149
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 95686150}
-  m_Layer: 0
-  m_Name: ObjetoEntreEscenas_Opciones
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &95686150
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 95686149}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 900.87, y: 561.36816, z: 15.368255}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &100407190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -431,6 +400,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6883678413709057372, guid: 603db0aa17fc4d3418169cb1da656d57, type: 3}
+      propertyPath: pantallaOpciones
+      value: 
+      objectReference: {fileID: 919517568}
     - target: {fileID: 7315466384753842269, guid: 603db0aa17fc4d3418169cb1da656d57, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -898,4 +871,3 @@ SceneRoots:
   - {fileID: 68547963}
   - {fileID: 919517567}
   - {fileID: 1067254082}
-  - {fileID: 95686150}
