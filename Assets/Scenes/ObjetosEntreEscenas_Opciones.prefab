@@ -165,7 +165,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7115717413646946586}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: LogicaBrillo, Assembly-CSharp
         m_MethodName: ChangeSlider
         m_Mode: 0
@@ -1547,7 +1547,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1745821158408880388}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: LogicaCalidad, Assembly-CSharp
         m_MethodName: AjustarCalidad
         m_Mode: 1
@@ -2970,7 +2970,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2005801312850258647}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: LogicaVolumen, Assembly-CSharp
         m_MethodName: ChangeSlider
         m_Mode: 0
@@ -3564,10 +3564,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7703336862625250041}
-  - component: {fileID: 2005801312850258647}
-  - component: {fileID: 7115717413646946586}
-  - component: {fileID: 5894117513670828378}
-  - component: {fileID: 1745821158408880388}
+  - component: {fileID: 3462518129702036292}
+  - component: {fileID: 8135742039424354196}
+  - component: {fileID: 9142593695749537629}
+  - component: {fileID: 1691945846590259156}
   m_Layer: 0
   m_Name: ControladorOpciones
   m_TagString: Untagged
@@ -3590,7 +3590,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 481748402309053244}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2005801312850258647
+--- !u!114 &3462518129702036292
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3599,28 +3599,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 6816344139597725759}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5fd9aca7d7dbeb499b59bcc09bb6a1a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Slider: {fileID: 7975029049927953379}
-  sliderVolue: 0
-  imageMute: {fileID: 1713190602496070087}
---- !u!114 &7115717413646946586
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6816344139597725759}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3c598a625b447f489fce9fa926044ef, type: 3}
+  m_Script: {fileID: 11500000, guid: 39ca33be9776a694a8f6ed4d2a173853, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 8091713233645706988}
   sliderValue: 0
   panelBrillo: {fileID: 4826336834427051411}
---- !u!114 &5894117513670828378
+--- !u!114 &8135742039424354196
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3629,25 +3614,40 @@ MonoBehaviour:
   m_GameObject: {fileID: 6816344139597725759}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4175f8a9f5380914db25157a660e801a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toggle: {fileID: 2456808247717696596}
-  resolucionesDropDown: {fileID: 2645619679683187924}
---- !u!114 &1745821158408880388
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6816344139597725759}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58a0b28712e54a940874a76734b9789b, type: 3}
+  m_Script: {fileID: 11500000, guid: d4307b7707411314b860b4dc4cf8a5d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dropdown: {fileID: 5233525492998091844}
   calidad: 0
+--- !u!114 &9142593695749537629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6816344139597725759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e0b1e13eeff1da4fbae5f8d61686d58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toggle: {fileID: 2456808247717696596}
+  resolucionesDropDown: {fileID: 2645619679683187924}
+--- !u!114 &1691945846590259156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6816344139597725759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeb14f80eb025604db6b2b35e430555a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Slider: {fileID: 7975029049927953379}
+  sliderVolue: 0
+  imageMute: {fileID: 1713190602496070087}
 --- !u!1 &7098103841394093624
 GameObject:
   m_ObjectHideFlags: 0
@@ -4399,7 +4399,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5894117513670828378}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: LogicaPantallaCompleta, Assembly-CSharp
         m_MethodName: ActivarPantallaCompleta
         m_Mode: 0
@@ -4645,8 +4645,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 481748402309053244}
-  - component: {fileID: 115113389293245294}
-  - component: {fileID: 9186994924841492541}
+  - component: {fileID: 6883678413709057372}
+  - component: {fileID: 8464818755774502218}
   m_Layer: 0
   m_Name: ObjetosEntreEscenas_Opciones
   m_TagString: Opciones
@@ -4671,7 +4671,7 @@ Transform:
   - {fileID: 1558268992549481589}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &115113389293245294
+--- !u!114 &6883678413709057372
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4680,10 +4680,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 8992966626933735190}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e6fcf54365156aa45aa459ab76c141ae, type: 3}
+  m_Script: {fileID: 11500000, guid: 1714ec283a442f14f9cca816c9944d17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &9186994924841492541
+  pantallaOpciones: {fileID: 0}
+--- !u!114 &8464818755774502218
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4692,10 +4693,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 8992966626933735190}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d68cc819d973f414491125f82d662b3f, type: 3}
+  m_Script: {fileID: 11500000, guid: 09d7c1547a214654fa6e41e3f73e3c21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pantallaOpciones: {fileID: 4136007671210480819}
 --- !u!1 &9010729421319422041
 GameObject:
   m_ObjectHideFlags: 0
@@ -4831,7 +4831,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5894117513670828378}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: LogicaPantallaCompleta, Assembly-CSharp
         m_MethodName: Cambiarresolucion
         m_Mode: 0
